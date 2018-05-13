@@ -164,15 +164,14 @@ hr {
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin: 0 20px 20px 20px;
 	color: #333;
 }
 .intro p {
 	font-size: 20px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin-bottom: 40px;
-	margin-top: 20px;
+	margin: 20px 20px 40px 20px;
 }
 header .intro-text {
 	padding-top: 200px;
