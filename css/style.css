@@ -218,6 +218,7 @@ header .intro-text {
 }
 ul.cat li {
 	display: inline-block;
+	text-align: center;
 }
 ol.type li {
 	display: inline-block;
@@ -384,11 +385,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   		font-size:24px
 	}
 	.type li{
-		width: 40%
+		width: 40%;
+		margin: 0 10px 15px 10px !important;
 	}
 	li .work-btn {
 		display: block;
-		float: left;
 		width: 100% !important;
 	}
 	.portfolio-item{
@@ -402,4 +403,5 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.dot {
 		display: none !important;
 	}
+
 }
