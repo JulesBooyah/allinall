@@ -394,12 +394,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.portfolio-item{
 		margin: 10px;
 	}
-	.dot {
-		display: none;
-	}
 	span {
 		display: block;
 		margin-bottom: 10px;
 		max-width: 100%;
+	}
+	.dot {
+		display: none !important;
 	}
 }
