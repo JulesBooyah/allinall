@@ -376,4 +376,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     .intro h1 {
         font-size: 3em;
     }
+	.intro p {
+		font-size: 1.2em;
+	}
 }
