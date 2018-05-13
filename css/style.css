@@ -178,6 +178,7 @@ hr {
 	text-transform: uppercase;
 	margin: 20px 20px 40px 20px;
 }
+
 header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -271,7 +272,7 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	max-width: 100%;
-	margin: 35px 60px;
+	margin: 35px 55px;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -371,26 +372,30 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     .intro h1 {
         font-size: 3em;
     }
-	.intro p {
-		font-size: 1.2em;
+	.intro .proff {
+		font-size: 1.1em;
 	}
 	#TopBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 2px;
-  z-index: 99;
-  outline: none;
-  padding: 15px;
-  border: none;
-  font-size:24px
+  		display: none;
+  		position: fixed;
+  		bottom: 20px;
+  		right: 2px;
+		z-index: 99;
+  		outline: none;
+		padding: 15px;
+  		border: none;
+  		font-size:24px
 	}
 	.type li{
-	width: 40%
+		width: 40%
 	}
 	li .work-btn {
-	display: block;
-	float: left;
-	width: 100% !important;
+		display: block;
+		float: left;
+		width: 100% !important;
+	}
+	.portfolio-item{
+		margin: 10px;
+		
 	}
 }
