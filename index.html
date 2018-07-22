@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
 <title>Videographer portfolio, Video Editor online - Alexander Perfilyev</title>
-<meta name="description" content="If you need high quality filming, video editing, animation, infographics, After Effects, basic 3d and sound design - Alexander Perfilyev">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="If you need high quality filming, video editing, animation, infographics, After Effects, basic 3d and sound design - Alexander Perfilyev"/>
+<meta name="author" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png"//>
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
 
 <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css"  href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css"/>
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'/>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -238,10 +237,10 @@
       </div>
 	 <div class="social text-center">
         	<ul>
-          		<li><a href="https://www.youtube.com/AllINAllmusic"><i class="fa fa-youtube"></i></a></li>
-          		<li><a href="https://www.facebook.com/allinallmusic/"><i class="fa fa-facebook"></i></a></li>
-          		<li><a href="https://www.instagram.com/all_inall/"><i class="fa fa-instagram"></i></a></li>
-          		<li><a href="https://twitter.com/TwitsInTwits"><i class="fa fa-twitter"></i></a></li>
+          		<li><a href="https://www.youtube.com/AllINAllmusic" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          		<li><a href="https://www.facebook.com/allinallmusic/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          		<li><a href="https://www.instagram.com/all_inall/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          		<li><a href="https://twitter.com/TwitsInTwits" target="_blank"><i class="fa fa-twitter"></i></a></li>
         	</ul>
       </div>
     </section>
@@ -265,11 +264,15 @@
 	window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
+	if(screen.width < 769px){
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("TopBtn").style.display = "block";
     } else {
         document.getElementById("TopBtn").style.display = "none";
     }
+	} else {
+        document.getElementById("TopBtn").style.display = "none";
+	}
 }
 
 // When the user clicks on the button, scroll to the top of the document
